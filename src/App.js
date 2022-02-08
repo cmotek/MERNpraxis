@@ -1,9 +1,19 @@
 import logo from './logo.svg';
+import GoalList from './components/GoalList';
 import './App.css';
 import React from 'react';
 
 const App = () => {
-  return <h1 title="thisworks">Hi, <span>this</span> is React!</h1>;
+  const courseGoals = [
+    {id: 'cg1', text: 'Finish the Course'},
+    {id: 'cg2', text: 'Learn all about the Course Main Topic'},
+    {id: 'cg3', text: 'Help other students in the Course Q&A'},
+  ];
+
+  return <div className="course-goals">
+    <h2>Course Goals</h2>
+    <GoalList goals={courseGoals} />
+  </div>
 }
 
 
