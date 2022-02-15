@@ -5,4 +5,4 @@ React, NodeJS, Express &amp; MongoDB - The MERN Fullstack Guide - Udemy Course f
 React refresher commenced
 
 02/14/2022
-React States
+React States. I will need to find an additional resource to study States & Hooks.
